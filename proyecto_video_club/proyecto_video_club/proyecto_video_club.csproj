@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4EEBE122-FC22-4AFA-AF9B-C8AA1B60AA8E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>proyecto_video_club</RootNamespace>
+    <AssemblyName>proyecto_video_club</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Clases\BE_Acceso_Datos.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Categorias\Frm_Alta_Categoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Categorias\Frm_Alta_Categoria.Designer.cs">
+      <DependentUpon>Frm_Alta_Categoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Frm_Menu_Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Frm_Menu_Principal.Designer.cs">
+      <DependentUpon>Frm_Menu_Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Peliculas\Frm_Alta_Peliculas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Peliculas\Frm_Alta_Peliculas.Designer.cs">
+      <DependentUpon>Frm_Alta_Peliculas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Socios\Frm_Alta_Socios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Socios\Frm_Alta_Socios.Designer.cs">
+      <DependentUpon>Frm_Alta_Socios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Transaccion\Frm_Alta_Factura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Transaccion\Frm_Alta_Factura.Designer.cs">
+      <DependentUpon>Frm_Alta_Factura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Negocios\NE_Categoria.cs" />
+    <Compile Include="Negocios\NE_Facturas.cs" />
+    <Compile Include="Negocios\NE_Peliculas.cs" />
+    <Compile Include="Negocios\NE_Socios.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Formularios\Categorias\Frm_Alta_Categoria.resx">
+      <DependentUpon>Frm_Alta_Categoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Frm_Menu_Principal.resx">
+      <DependentUpon>Frm_Menu_Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Peliculas\Frm_Alta_Peliculas.resx">
+      <DependentUpon>Frm_Alta_Peliculas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Socios\Frm_Alta_Socios.resx">
+      <DependentUpon>Frm_Alta_Socios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Transaccion\Frm_Alta_Factura.resx">
+      <DependentUpon>Frm_Alta_Factura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

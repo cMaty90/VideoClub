@@ -1,0 +1,14 @@
+C:\Users\matia\Desktop\PROYECTO-VIDEO-CLUB\proyecto_video_club\proyecto_video_club\bin\Debug\proyecto_video_club.exe.config
+C:\Users\matia\Desktop\PROYECTO-VIDEO-CLUB\proyecto_video_club\proyecto_video_club\bin\Debug\proyecto_video_club.exe
+C:\Users\matia\Desktop\PROYECTO-VIDEO-CLUB\proyecto_video_club\proyecto_video_club\bin\Debug\proyecto_video_club.pdb
+C:\Users\matia\Desktop\PROYECTO-VIDEO-CLUB\proyecto_video_club\proyecto_video_club\obj\Debug\proyecto_video_club.csproj.AssemblyReference.cache
+C:\Users\matia\Desktop\PROYECTO-VIDEO-CLUB\proyecto_video_club\proyecto_video_club\obj\Debug\proyecto_video_club.Formularios.Socios.Frm_Alta_Socios.resources
+C:\Users\matia\Desktop\PROYECTO-VIDEO-CLUB\proyecto_video_club\proyecto_video_club\obj\Debug\proyecto_video_club.Properties.Resources.resources
+C:\Users\matia\Desktop\PROYECTO-VIDEO-CLUB\proyecto_video_club\proyecto_video_club\obj\Debug\proyecto_video_club.csproj.GenerateResource.cache
+C:\Users\matia\Desktop\PROYECTO-VIDEO-CLUB\proyecto_video_club\proyecto_video_club\obj\Debug\proyecto_video_club.csproj.CoreCompileInputs.cache
+C:\Users\matia\Desktop\PROYECTO-VIDEO-CLUB\proyecto_video_club\proyecto_video_club\obj\Debug\proyecto_video_club.exe
+C:\Users\matia\Desktop\PROYECTO-VIDEO-CLUB\proyecto_video_club\proyecto_video_club\obj\Debug\proyecto_video_club.pdb
+C:\Users\matia\Desktop\PROYECTO-VIDEO-CLUB\proyecto_video_club\proyecto_video_club\obj\Debug\proyecto_video_club.Formularios.Categorias.Frm_Alta_Categoria.resources
+C:\Users\matia\Desktop\PROYECTO-VIDEO-CLUB\proyecto_video_club\proyecto_video_club\obj\Debug\proyecto_video_club.Formularios.Peliculas.Frm_Alta_Peliculas.resources
+C:\Users\matia\Desktop\PROYECTO-VIDEO-CLUB\proyecto_video_club\proyecto_video_club\obj\Debug\proyecto_video_club.Formularios.Transaccion.Frm_Alta_Factura.resources
+C:\Users\matia\Desktop\PROYECTO-VIDEO-CLUB\proyecto_video_club\proyecto_video_club\obj\Debug\proyecto_video_club.Formularios.Frm_Menu_Principal.resources
