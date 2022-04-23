@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\proyecto_video_club"
+    "\\proyecto_video_club",
+    "\\proyecto_video_club\\proyecto_video_club",
+    "\\proyecto_video_club\\proyecto_video_club\\Formularios",
+    "\\proyecto_video_club\\proyecto_video_club\\Formularios\\Transaccion"
   ],
+  "SelectedNode": "\\proyecto_video_club\\proyecto_video_club\\Formularios\\Transaccion\\Frm_Alta_Factura.cs",
   "PreviewInSolutionExplorer": false
 }

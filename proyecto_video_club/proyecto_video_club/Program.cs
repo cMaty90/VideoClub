@@ -27,7 +27,10 @@ namespace proyecto_video_club
             //Application.Run(new Frm_Alta_Categoria());
             //Application.Run(new Frm_Alta_Peliculas());
             //Application.Run(new Frm_Alta_Factura());
-            Application.Run(new Frm_Menu_Principal());
+            //Application.Run(new Frm_Menu_Principal());
+            //Application.Run(new Consulta_Categoria());
+            //Application.Run(new Consultar_Pelicula());
+            Application.Run(new Consultar_Socios());
         }
     }
 }

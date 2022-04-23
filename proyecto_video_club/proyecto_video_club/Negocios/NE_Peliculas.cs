@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -38,6 +39,29 @@ namespace proyecto_video_club.Negocios
             combo.ValueMember = "id_categoria";
             combo.DataSource = _BD.EjecutarSelect("SELECT nombre, id_categoria FROM Categorias");
         }
+
+        //metodos para el formulario de la consulta
+        public DataTable traerDatosPeliculas(string nombre)
+        {
+            string sql = "SELECT * FROM Peliculas p WHERE p.nombre = '" + nombre + "'";
+            return _BD.EjecutarSelect(sql);
+        }
+
+        public DataTable traerNombresPeliculas()
+        {
+            string sql = "SELECT nombre FROM Peliculas";
+            return _BD.EjecutarSelect(sql);
+        }
+
+
+        public DataTable traerTodosLodDatosPeliculas()
+        {
+            string sql = "SELECT * FROM Peliculas";
+            return _BD.EjecutarSelect(sql);
+        }
+        //-------------------------
+
+
 
 
 

@@ -52,6 +52,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\Categorias\Consulta_Categoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Categorias\Consulta_Categoria.Designer.cs">
+      <DependentUpon>Consulta_Categoria.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\Categorias\Frm_Alta_Categoria.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,11 +70,23 @@
     <Compile Include="Formularios\Frm_Menu_Principal.Designer.cs">
       <DependentUpon>Frm_Menu_Principal.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\Peliculas\Consultar_Pelicula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Peliculas\Consultar_Pelicula.Designer.cs">
+      <DependentUpon>Consultar_Pelicula.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\Peliculas\Frm_Alta_Peliculas.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Formularios\Peliculas\Frm_Alta_Peliculas.Designer.cs">
       <DependentUpon>Frm_Alta_Peliculas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Socios\Consultar_Socios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Socios\Consultar_Socios.Designer.cs">
+      <DependentUpon>Consultar_Socios.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\Socios\Frm_Alta_Socios.cs">
       <SubType>Form</SubType>
@@ -88,14 +106,23 @@
     <Compile Include="Negocios\NE_Socios.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Formularios\Categorias\Consulta_Categoria.resx">
+      <DependentUpon>Consulta_Categoria.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Categorias\Frm_Alta_Categoria.resx">
       <DependentUpon>Frm_Alta_Categoria.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Frm_Menu_Principal.resx">
       <DependentUpon>Frm_Menu_Principal.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Peliculas\Consultar_Pelicula.resx">
+      <DependentUpon>Consultar_Pelicula.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Peliculas\Frm_Alta_Peliculas.resx">
       <DependentUpon>Frm_Alta_Peliculas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Socios\Consultar_Socios.resx">
+      <DependentUpon>Consultar_Socios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Socios\Frm_Alta_Socios.resx">
       <DependentUpon>Frm_Alta_Socios.cs</DependentUpon>

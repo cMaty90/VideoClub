@@ -12,3 +12,6 @@ C:\Users\matia\Desktop\PROYECTO-VIDEO-CLUB\proyecto_video_club\proyecto_video_cl
 C:\Users\matia\Desktop\PROYECTO-VIDEO-CLUB\proyecto_video_club\proyecto_video_club\obj\Debug\proyecto_video_club.Formularios.Peliculas.Frm_Alta_Peliculas.resources
 C:\Users\matia\Desktop\PROYECTO-VIDEO-CLUB\proyecto_video_club\proyecto_video_club\obj\Debug\proyecto_video_club.Formularios.Transaccion.Frm_Alta_Factura.resources
 C:\Users\matia\Desktop\PROYECTO-VIDEO-CLUB\proyecto_video_club\proyecto_video_club\obj\Debug\proyecto_video_club.Formularios.Frm_Menu_Principal.resources
+C:\Users\matia\Desktop\PROYECTO-VIDEO-CLUB\proyecto_video_club\proyecto_video_club\obj\Debug\proyecto_video_club.Formularios.Categorias.Consulta_Categoria.resources
+C:\Users\matia\Desktop\PROYECTO-VIDEO-CLUB\proyecto_video_club\proyecto_video_club\obj\Debug\proyecto_video_club.Formularios.Peliculas.Consultar_Pelicula.resources
+C:\Users\matia\Desktop\PROYECTO-VIDEO-CLUB\proyecto_video_club\proyecto_video_club\obj\Debug\proyecto_video_club.Formularios.Socios.Consultar_Socios.resources

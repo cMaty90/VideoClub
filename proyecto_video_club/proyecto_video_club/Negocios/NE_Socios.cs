@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -32,7 +33,28 @@ namespace proyecto_video_club.Negocios
 
             _BD.Insertar(sql);
         }
-        
+
+        //metodos para el formulario de consulta
+
+        public DataTable traerDatosSocios(string nombre)
+        {
+            string sql = "SELECT * FROM Socios s WHERE s.nombre = '" + nombre + "'";
+            return _BD.EjecutarSelect(sql);
+        }
+
+        public DataTable traerNombresSocios()
+        {
+            string sql = "SELECT nombre FROM Socios";
+            return _BD.EjecutarSelect(sql);
+        }
+
+
+        public DataTable traerTodosLodDatosSocios()
+        {
+            string sql = "SELECT * FROM Socios";
+            return _BD.EjecutarSelect(sql);
+        }
+
 
 
     }
